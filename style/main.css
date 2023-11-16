@@ -1,0 +1,23 @@
+body {
+    color: #FFFFDD;
+    background-color: #61A3BA;
+}
+.section {
+    margin-top: 30px;
+}
+.disable-text {
+    text-decoration: line-through;
+    color: #cccccc;
+    pointer-events: none;
+}
+
+.icons {
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.list-group-item:hover .icons {
+    visibility: visible;
+    opacity: 1;
+}
